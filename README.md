@@ -7,22 +7,22 @@ Getting Started
 Setup Environment
 You only need to create one virtual environment for all examples in this course. Follow these steps to set it up:
 
-# Create virtual environment in the root directory
+### Create virtual environment in the root directory
 python -m venv .venv
 
-# Activate (each new terminal)
-# macOS/Linux:
+### Activate (each new terminal)
+### macOS/Linux:
 source .venv/bin/activate
-# Windows CMD:
+### Windows CMD:
 .venv\Scripts\activate.bat
-# Windows PowerShell:
+### Windows PowerShell:
 .venv\Scripts\Activate.ps1
 
-# Install dependencies
+### Install dependencies
 pip install -r requirements.txt
 Once set up, this single environment will work for all examples in the repository.
 
-Setting Up API Keys
+### Setting Up API Keys
 Create an account in Google Cloud https://cloud.google.com/?hl=en
 Create a new project
 Go to https://aistudio.google.com/apikey
